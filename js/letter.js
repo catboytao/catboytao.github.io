@@ -59,6 +59,16 @@ window.onload = function () {
 
 	$('#music2').attr('src', bgmsrc);
 
+	$('#open').on('click', function () {
+		let open = document.getElementById("top")
+		open.setAttribute("style", "display:none")
+	})
+
+	$('#close').on('click', function () {
+		let open = document.getElementById("top")
+		open.setAttribute("style", "display:block")
+	})
+
 	document.addEventListener('touchstart', function (event) { if (event.touches.length > 1) event.preventDefault(); });
 
 	var lastTouchEnd = 0;
@@ -72,6 +82,7 @@ window.onload = function () {
 	}, false);
 
 	document.addEventListener('gesturestart', function (event) { event.preventDefault(); });
+
 
 	$('body').css('opacity', '1');
 	$('#jsi-cherry-container').css('z-index', '-99');
