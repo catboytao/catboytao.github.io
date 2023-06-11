@@ -238,7 +238,7 @@ a:hover {
 #open {
   width: 150px;
   text-align: center;
-  margin: 280px auto;
+  margin: 330px auto;
   /* margin-top: 170px; */
   /* margin-left: 380px; */
 }
@@ -277,7 +277,7 @@ section.container {
 
 section.container>form.flip {
   width: 100%;
-  height: 160%;
+  height: 180%;
   position: absolute;
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -474,7 +474,7 @@ section.container>form.flip>.front {
 #letter {
   background: #fafafa;
   width: 90%;
-  height: 100%;
+  height: 120%;
   position: absolute;
   left: 5%;
   top: 0;
