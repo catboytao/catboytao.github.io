@@ -24,7 +24,7 @@ $("#open").click(function () {
 			],
 
 
-			typeSpeed: 10,
+			typeSpeed: 100,
 			backSpeed: 50
 		});
 
